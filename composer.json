@@ -1,0 +1,19 @@
+{
+    "name": "kirugan/advertstar-api",
+    "description": "Api for advertstar.ru",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kirugan\\Advertstar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kirill",
+            "email": "paltsev.kir@gmail.com"
+        }
+    ]
+}
